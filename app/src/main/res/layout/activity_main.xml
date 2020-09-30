@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/btClient"
+        android:layout_width="177dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickClient"
+        android:text="Jogar"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btServer" />
+
+    <Button
+        android:id="@+id/btServer"
+        android:layout_width="179dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickServer"
+        android:text="Iniciar Sessão"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvExplica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Existem duas raças em guerra constante: Eloi e Morlock. Os Morlocks caçam Elois. Um dia um Eloi consertou uma máquina do tempo, mas ao tentar usá-la, foi pego por um Morlock. Em meio à batalha, ambos voltaram no tempo para 2020, mas devido às distorções no espaço-tempo, foram parar no Brasil em lugares diferentes entre si e da máquina do tempo. Agora o Eloi tentará achar sua máquina do tempo antes que o Morlock o ache."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btClient" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
